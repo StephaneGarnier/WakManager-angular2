@@ -1,0 +1,13 @@
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label">Login</span>
+                <input type="text" [(ngModel)]="email" placeholder="">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password" [(ngModel)]="password" placeholder="">
+            </label>
+        </form>
+        <a id="login-button1" class="button button-positive  button-block" (click)="login()">Login</a>
+    </ion-content>

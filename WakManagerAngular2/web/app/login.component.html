@@ -1,0 +1,28 @@
+ <section class="login" >
+        <div class="form-login">
+            <form  name="logForm">
+                <fieldset>
+                    <h2 class="title">Wak Manager</h2>
+                    <div class="line"></div>
+                     <h3 class="title">Sign in</h3>
+                    <div class="form_content">
+                        <p class="text">
+                            <span><input type="text" [(ngModel)]="userId" placeholder="Email" ng-pattern="/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$/" required></span>
+                        </p>
+                        <p class="text">
+                            <span><input [(ngModel)]="userPassword" type="password" name="password" placeholder="Password" required></span>
+                        </p>
+
+                        <div class="line"></div>
+
+                        <p class="submit">
+                            <input type="submit" value="Login" (click)="onClick()">
+                        </p>
+                        <p class="text">
+                            <a href="/register">You don't have an account ?</a>
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>

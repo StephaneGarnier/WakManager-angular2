@@ -1,0 +1,10 @@
+{
+  "name": "MyIonic2Project",
+  "app_id": "",
+   "proxies": [{
+     "path": "/rest",
+     "proxyUrl": "http://127.0.0.1:8081/rest"
+   }],
+  "v2": true,
+  "typescript": true
+}
