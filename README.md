@@ -59,3 +59,4 @@ Few things to note:
 - `Wakanda-Client` is still on beta and might have some issues.
 - `Wakanda-extension-language-tools 1.0.0` In `Wakanda studio` have a known bug with typescripts files so I recommand you to use `Visual Studio Code` or `Atom`. 
 - It is my first Angular 2 and Ionic 2 application, some usage might be bad, feel free to tell me in such case :)
+- These demo are in the very first stage of development.
