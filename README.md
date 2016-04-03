@@ -47,7 +47,7 @@ npm install
 4. When the installation is finish you just have to run this following command.
 
  ```bash
-ionic serve
+ionic serve --address 127.0.0.1 --lab
 ```
 
 5. Now your Ionic 2 application is running in your browser here: `http://127.0.0.1:8100`. If you want to have Android and iPhone view go to this URL: `http://127.0.0.1:8100/ionic-lab`.
