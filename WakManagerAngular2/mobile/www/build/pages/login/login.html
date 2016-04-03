@@ -1,13 +1,19 @@
-    <ion-content overflow-scroll="true" padding="true" class="has-header">
-        <form class="list">
-            <label class="item item-input">
-                <span class="input-label">Login</span>
-                <input type="text" [(ngModel)]="email" placeholder="">
-            </label>
-            <label class="item item-input">
-                <span class="input-label">Password</span>
-                <input type="password" [(ngModel)]="password" placeholder="">
-            </label>
-        </form>
-        <button block (click)="login()">Login</button>
-    </ion-content>
+<ion-navbar *navbar>
+      <ion-title>WakManager Login</ion-title>
+    </ion-navbar>
+<ion-content overflow-scroll="true" padding="true" class="has-header">
+    <ion-list>
+
+        <ion-item>
+            <ion-label stacked>Email</ion-label>
+            <ion-input type="text" [(ngModel)]="email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label stacked>Password</ion-label>
+            <ion-input type="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
+
+    </ion-list>
+    <button block (click)="login()">Login</button>
+</ion-content>
