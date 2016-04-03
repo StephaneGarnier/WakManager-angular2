@@ -60,6 +60,6 @@ Few things to note:
 - `Wakanda-extension-language-tools 1.0.0` In `Wakanda studio` have a known bug with typescripts files so I recommand you to use `Visual Studio Code` or `Atom`. 
 - It is my first Angular 2 and Ionic 2 application, some usage might be bad, feel free to tell me in such case :)
 - These demo are in the very first stage of development.
-- You can login with the following credentials: 
-    login: john.doe@wakanda.io 
-    password: john
+- You can login with the following credentials:
+    - login: `john.doe@wakanda.io`
+    - password: `john`
