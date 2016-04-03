@@ -47,7 +47,7 @@ npm install
 4. When the installation is finish you just have to run this following command.
 
  ```bash
-ionic serve
+ionic serve --address 127.0.0.1 --lab
 ```
 
 5. Now your Ionic 2 application is running in your browser here: `http://127.0.0.1:8100`. If you want to have Android and iPhone view go to this URL: `http://127.0.0.1:8100/ionic-lab`.
@@ -60,6 +60,6 @@ Few things to note:
 - `Wakanda-extension-language-tools 1.0.0` In `Wakanda studio` have a known bug with typescripts files so I recommand you to use `Visual Studio Code` or `Atom`. 
 - It is my first Angular 2 and Ionic 2 application, some usage might be bad, feel free to tell me in such case :)
 - These demo are in the very first stage of development.
-- You can login with the following credentials: 
-    login: john.doe@wakanda.io 
-    password: john
+- You can login with the following credentials:
+    - login: `john.doe@wakanda.io`
+    - password: `john`
