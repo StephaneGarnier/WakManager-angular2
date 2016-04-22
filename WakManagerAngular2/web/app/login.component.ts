@@ -19,7 +19,6 @@ export class LoginComponent {
         let router = this._router;
          let client = new WakandaClient();
          client.directory.login(this.userId, this.userPassword).then(function(result){
-             console.log(result);
              router.navigate( ['Profile'] );
          });
          

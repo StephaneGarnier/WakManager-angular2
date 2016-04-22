@@ -35,7 +35,6 @@ System.register(['angular2/core', 'angular2/router', 'wakanda-client/browser/no-
                     var router = this._router;
                     var client = new no_promise_1.default();
                     client.directory.login(this.userId, this.userPassword).then(function (result) {
-                        console.log(result);
                         router.navigate(['Profile']);
                     });
                 };

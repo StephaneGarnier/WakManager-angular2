@@ -21,7 +21,12 @@
     "ionic-gulp-sass-build": "^1.0.0",
     "ionic-gulp-scripts-copy": "^1.0.0"
   },
-  "cordovaPlugins": [],
+  "cordovaPlugins": [
+    {
+      "locator": "https://github.com/apache/cordova-plugin-whitelist.git",
+      "id": "cordova-plugin-whitelist"
+    }
+  ],
   "cordovaPlatforms": [
     "ios"
   ],
